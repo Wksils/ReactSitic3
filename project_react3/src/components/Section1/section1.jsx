@@ -1,3 +1,4 @@
+import './section1Style.scss'
 import {Photo} from '../../Photo.js'
 
 export default function Section1(){
