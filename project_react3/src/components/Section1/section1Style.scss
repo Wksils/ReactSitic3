@@ -1,8 +1,8 @@
-// @use '../style_layout.scss' as lm;
+@use '../style_layout.scss' as lm;
 
-// .section1{
-//     @extend %base-layout;
-//     height: 100vh;
-//     background-image: url('../../assets/Sect1Dr.png');
-//     background-size: cover;
-// }
+.section1{
+    @extend %base-layout;
+    height: 100vh;
+    background-image: url('../../assets/Sect1Dr.png');
+    background-size: cover;
+}

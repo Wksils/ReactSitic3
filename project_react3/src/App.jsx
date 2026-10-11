@@ -1,8 +1,7 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
-import { useState } from 'react'
 import './App.scss'
 import Header from './components/Header/header'
-import Page1 from './pages/page1'
+import Page1 from './pages/page1.jsx'
 
 export default function App(){
   return (
