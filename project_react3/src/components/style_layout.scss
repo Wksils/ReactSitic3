@@ -11,10 +11,20 @@
     justify-content: space-between;
     align-items: center;
 }
-@mixin container-layout-column($width, $heihght){
+@mixin container-layout-column($width, $height){
     width: $width;
-    height: $heihght;
+    height: $height;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+@mixin button-blue($width, $height){
+    @include container-layout($width, $height);
+    justify-content: center;
+    background-color: #BFD2F8;
+    color: #1F2B6C;
+    border: none;
+    border-radius: 35px;
+    font-size: 1.1rem;
+    font-weight: 500;
 }

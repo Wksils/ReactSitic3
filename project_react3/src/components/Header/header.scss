@@ -12,14 +12,7 @@ header{
         .poisk{
             @include lm.container-layout(20%, 100%);
             button{
-                @include lm.container-layout(75%, 70%);
-                justify-content: center;
-                background-color: #BFD2F8;
-                color: #1F2B6C;
-                border: none;
-                border-radius: 35px;
-                font-size: 1.1rem;
-                font-weight: 500;
+                @include lm.button-blue(75%, 70%);
             }
         }
     }

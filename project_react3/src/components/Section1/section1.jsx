@@ -7,8 +7,8 @@ export default function Section1(){
             <section className="section1">
                 <div className="container">
                     <div className="title">
-                        <p>Caring for Life</p>
-                        <h1>Leading the Way in Medical Excellence</h1>
+                        <p>CARING FOR LIFE</p>
+                        <h1>Leading the Way <br/> in Medical Excellence</h1>
                         <button>Our Services</button>
                     </div>
                     <div className="book">
