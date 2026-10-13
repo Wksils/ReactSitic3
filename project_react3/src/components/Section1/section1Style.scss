@@ -10,11 +10,7 @@
         margin-top: 15%;
         .title{
             @include lm.container-layout-column(55%, 50%);
-            p{color: #159EEC; 
-                font-size: 1.5rem; 
-                font-weight: 700;
-                letter-spacing: 5px;
-            }
+            p{@include lm.blue-text();}
             h1{
                 font-size: 4rem;
                 font-weight: 500;

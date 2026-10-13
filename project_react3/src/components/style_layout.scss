@@ -28,3 +28,9 @@
     font-size: 1.1rem;
     font-weight: 500;
 }
+@mixin blue-text(){
+    color: #159EEC; 
+    font-size: 1.5rem; 
+    font-weight: 700;
+    letter-spacing: 5px;
+}

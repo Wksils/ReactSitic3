@@ -3,5 +3,24 @@
 .section2{
     @extend %base-layout;
     height: 85vh;
-    background-color: aqua;
+    align-items: end;
+    .container{
+        @include lm.container-layout-column(70%, 80%);
+        align-items: center;
+        img{width: 100%; height: auto;}
+        div{
+            @include lm.container-layout-column(70%, 30%);
+            align-items: center;
+            .asd{@include lm.blue-text();}
+            h2{font-size: 3rem; font-weight: 500;}
+            p{
+                text-align: center;
+                font-size: 1.4rem;
+            }
+        }
+        a{
+            color: #159EEC;
+            span{font-weight: 900;}
+        }
+    }
 }
