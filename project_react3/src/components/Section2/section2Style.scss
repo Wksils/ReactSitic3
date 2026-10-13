@@ -1,0 +1,7 @@
+@use '../style_layout.scss' as lm;
+
+.section2{
+    @extend %base-layout;
+    height: 85vh;
+    background-color: aqua;
+}
