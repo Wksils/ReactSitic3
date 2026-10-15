@@ -17,6 +17,9 @@ import dr3 from './assets/dr3.png'
 import inin from './assets/inin.png'
 import f from './assets/f.png'
 import inst from './assets/inst.png'
+import newsPhoto from './assets/newsPhoto.png'
+import view from './assets/view.png'
+import like from './assets/like.png'
 
 export const Photo = {
     Team:Team,
@@ -37,5 +40,8 @@ export const Photo = {
     dr3:dr3,
     inin:inin,
     f:f,
-    inst:inst
+    inst:inst,
+    newsPhoto:newsPhoto,
+    view:view,
+    like:like
 }
