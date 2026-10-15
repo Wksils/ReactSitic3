@@ -1,0 +1,47 @@
+@use '../style_layout.scss' as lm;
+
+.section6{
+    @extend %base-layout;
+    height: 100vh;
+    .container{
+        @include lm.container-layout-column(70%, 80%);
+        align-items: center;
+        .title{
+            @include lm.container-layout-column(100%, 10%);
+            align-items: center;
+            p{@include lm.blue-text();}
+            h2{font-size: 3rem; font-weight: 500;}
+        }
+        .swiper{
+            width: 100%;
+            height: 85%;
+            .mySwiper{
+                width: 100%;
+                height: 100%;
+                .slide{
+                    height: 55%;
+                    img{width: 100%; height: 110%;}
+                    .info{
+                        @include lm.container-layout-column(100%, 40%);
+                        align-items: center;
+                        justify-content: space-evenly;
+                        background-color: #BFD2F8;
+                        .name{font-size: 1.3rem}
+                        .spec{@include lm.blue-text(); color: #1F2B6C; font-size: 1.3rem}
+                        div{
+                            @include lm.container-layout(30%, 35%);
+                            img{height: 55%; width: auto;}
+                        }
+                    }
+                    button{
+                        width: 100%;
+                        height: 15%;
+                        background-color: #1F2B6C;
+                        color: #BFD2F8;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+}

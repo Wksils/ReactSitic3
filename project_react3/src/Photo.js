@@ -11,6 +11,12 @@ import plus from './assets/plus.png'
 import photo1 from './assets/photo1.png'
 import photo2 from './assets/photo2.png'
 import specialties from './assets/specialties.png'
+import dr1 from './assets/dr1.png'
+import dr2 from './assets/dr2.png'
+import dr3 from './assets/dr3.png'
+import inin from './assets/inin.png'
+import f from './assets/f.png'
+import inst from './assets/inst.png'
 
 export const Photo = {
     Team:Team,
@@ -25,5 +31,11 @@ export const Photo = {
     plus:plus,
     photo1:photo1,
     photo2:photo2,
-    specialties:specialties
+    specialties:specialties,
+    dr1:dr1,
+    dr2:dr2,
+    dr3:dr3,
+    inin:inin,
+    f:f,
+    inst:inst
 }
