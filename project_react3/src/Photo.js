@@ -10,6 +10,7 @@ import medical from './assets/medical.png'
 import plus from './assets/plus.png'
 import photo1 from './assets/photo1.png'
 import photo2 from './assets/photo2.png'
+import specialties from './assets/specialties.png'
 
 export const Photo = {
     Team:Team,
@@ -23,5 +24,6 @@ export const Photo = {
     medical:medical,
     plus:plus,
     photo1:photo1,
-    photo2:photo2
+    photo2:photo2,
+    specialties:specialties
 }
