@@ -27,7 +27,7 @@ import time from './assets/time.png'
 import inin2 from './assets/inin2.png'
 import f2 from './assets/f2.png'
 import inst2 from './assets/inst2.png'
-import exp from './assets/exp'
+import exp from './assets/exp.svg'
 
 export const Photo = {
     Team:Team,
