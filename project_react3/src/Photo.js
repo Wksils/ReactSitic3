@@ -20,6 +20,10 @@ import inst from './assets/inst.png'
 import newsPhoto from './assets/newsPhoto.png'
 import view from './assets/view.png'
 import like from './assets/like.png'
+import call from './assets/call.png'
+import loc from './assets/loc.png'
+import email from './assets/email.png'
+import time from './assets/time.png'
 
 export const Photo = {
     Team:Team,
@@ -43,5 +47,9 @@ export const Photo = {
     inst:inst,
     newsPhoto:newsPhoto,
     view:view,
-    like:like
+    like:like, 
+    call:call,
+    loc:loc, 
+    email:email,
+    time:time
 }

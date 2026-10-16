@@ -5,6 +5,7 @@ import Section4 from '../components/Section4/section4'
 import Section5 from '../components/Section5/section5'
 import Section6 from '../components/Section6/section6'
 import Section7 from '../components/Section7/section7'
+import Section8 from '../components/Section8/section8'
 
 export default function Page1(){
     return(
@@ -16,6 +17,7 @@ export default function Page1(){
             <Section5/>
             <Section6/>
             <Section7/>
+            <Section8/>
         </>
     )
 }
