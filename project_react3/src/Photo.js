@@ -24,6 +24,10 @@ import call from './assets/call.png'
 import loc from './assets/loc.png'
 import email from './assets/email.png'
 import time from './assets/time.png'
+import inin2 from './assets/inin2.png'
+import f2 from './assets/f2.png'
+import inst2 from './assets/inst2.png'
+import exp from './assets/exp'
 
 export const Photo = {
     Team:Team,
@@ -51,5 +55,9 @@ export const Photo = {
     call:call,
     loc:loc, 
     email:email,
-    time:time
+    time:time,
+    inin2:inin2,
+    f2:f2,
+    inst2:inst2,
+    exp:exp
 }
